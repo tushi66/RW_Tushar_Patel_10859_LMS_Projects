@@ -1,0 +1,30 @@
+Link :- https://www.netflix.com/in/
+
+Web font:- netflix sans 
+
+
+body bg color :- black
+
+button color : rgb(229, 9, 20)
+
+
+
+box bg gradiant color:- linear-gradient(149deg, #192247 0%, #210e17 96.86%);
+
+<img src="https://assets.nflxext.com/ffe/siteui/vlv3/d482944d-eab4-4a64-89c9-a07a508a6e42/web/IN-en-20250929-TRIFECTA-perspective_4cf0c8a1-bd35-4d72-a49f-165021531dde_large.jpg" srcset="https://assets.nflxext.com/ffe/siteui/vlv3/d482944d-eab4-4a64-89c9-a07a508a6e42/web/IN-en-20250929-TRIFECTA-perspective_4cf0c8a1-bd35-4d72-a49f-165021531dde_large.jpg 2000w, https://assets.nflxext.com/ffe/siteui/vlv3/d482944d-eab4-4a64-89c9-a07a508a6e42/web/IN-en-20250929-TRIFECTA-perspective_4cf0c8a1-bd35-4d72-a49f-165021531dde_medium.jpg 1279w, https://assets.nflxext.com/ffe/siteui/vlv3/d482944d-eab4-4a64-89c9-a07a508a6e42/web/IN-en-20250929-TRIFECTA-perspective_4cf0c8a1-bd35-4d72-a49f-165021531dde_small.jpg 959w" alt="" aria-hidden="true" class="default-ltr-iqcdef-cache-19j6xtr">
+
+
+
+
+<span style="background-image:url(https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVgzdeZGRAwCEa709VhH3rjzGTNzIDlWer-mLr3GaH6qm10zCfxxN-E1-JYCA8CxkoBD74MIuxW1agaVLL4kUpFTtsZPIuTfAV1ljNzcrTPup4487rDCgRuZm-Jn8fUi1cVx.jpg?r=d90)" class="default-ltr-iqcdef-cache-cf8xw5 e1rogofe3"></span>
+
+<span style="background-image:url(https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABVCFw8MF6uGSOWNdDuWDceFWSWZ_MZr2EVeAVUKKwem4V55-hgOZIN4bL1ec88hlPQR8gCcr5Kjh3D5ooumjy06p86FGLS_UZOw.jpg?r=267)" class="default-ltr-iqcdef-cache-cf8xw5 e1rogofe3"></span>
+
+<span style="background-image:url(https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABSyEWnhjTjuqFw870rBScEnV2gTha0Gl7BmfSsX5e3RtJIM1eTzpnMRcInEiAcPfZDDUb75hwAh6s010xLSwWZvaH1iuN7CpRok.jpg?r=273)" class="default-ltr-iqcdef-cache-cf8xw5 e1rogofe3"></span>
+
+<span style="background-image:url(https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABeoohnxFnnker6egKMvwn6DeDzabFIl9ofD4lkS5kkiTPw-oLlWlg5EpZ55JS5_fxaNaPe3XQikLVASgsLctH9EVpSaAa9-tUfqu6sGD8TTXs0N1KWu9-ZWOWYdhA6HajAgl.jpg?r=f17)" class="default-ltr-iqcdef-cache-cf8xw5 e1rogofe3"></span>
+<span style="background-image:url(https://occ-0-5233-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABfoaMS5KELruM3379E1i_LPapGnQcTAf0uLxtFgpvgoKeHevsJerl17TKVvUnmvj2HZRwnDrm8rt4SvoP1DkF-dLttvnoryDy6yau8BfW0qN3TSPn1Ds5EcupIfEwv_IKXRs.jpg?r=e05)" class="default-ltr-iqcdef-cache-cf8xw5 e1rogofe3"></span>
+
+<span style="background-image:url(https://occ-0-4875-2186.1.nflxso.net/dnm/api/v6/mAcAr9TxZIVbINe88xb3Teg5_OA/AAAABQv_qKs6sk8EvgL1Tys6_vGeoEK2mG7UaoT0kscI1Ia2BJZh8m_6pRLa9KIWwpg5uIYCOjS1Aw1faooc6zlgje2WDfsdtTTne4_-DFpmiUGlLRNNSl-Tk_xdhZxbe58GFLPL.jpg?r=b86)" class="default-ltr-iqcdef-cache-cf8xw5 e1rogofe3"></span>
+
+<path id="Vector_4" d="M63 12H8.99995C8.00584 12 7.19995 12.8059 7.19995 13.8V51.6C7.19995 52.5941 8.00584 53.4 8.99995 53.4H63C63.9941 53.4 64.8 52.5941 64.8 51.6V13.8C64.8 12.8059 63.9941 12 63 12Z" fill="url(#paint3_radial_5179_1308)"></path>

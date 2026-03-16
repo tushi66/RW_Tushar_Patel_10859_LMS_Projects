@@ -1,0 +1,108 @@
+*{
+
+    margin: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    background: #9ACACE;
+background: radial-gradient(at left top, #9ACACE, #EFD3F9);;
+}
+
+.box3 span p b{
+    color: red;
+}
+.head{
+
+    border: 2px solid;
+    width: 97%;
+    background-image: url(../img/bg.jpg);
+    height: 250px;
+    background-size: cover;
+    background-position: left;
+    padding: 50px;
+    margin: 10px;    
+}
+
+.inputtype{
+
+    padding: 10px 20px;
+    width: 300px;
+}
+
+.box2{
+
+    display: inline-block;
+    border: 5px solid;
+    width: 50%;
+}
+
+
+
+.block{
+    padding: 20px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+select{
+    border-radius: 5%;
+    padding: 10px;
+}
+
+
+#option{
+
+    margin-left: 60%;
+}
+
+.but{
+    display: block;
+    margin: 5px;
+    color: white;
+      border-radius: 10%;
+      border: none;
+}
+.box4{
+    
+    border: 1px solid black;
+    border-radius: 5%;
+    display: inline-block;
+    margin: 20px;
+    width: 330px;
+    height: 460px;
+    padding: 20px;
+    background-color: white;
+}
+
+i{
+    color: darkorange;
+}
+
+#icon{
+
+    color: white;
+}
+
+.but1{
+    border: 0px;
+    border-radius: 10%;
+    margin-left: 35%;
+    padding: 15px 30px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+}
+
+
+.f{
+
+   
+  font-family: "Indie Flower", cursive;
+ 
+}
+
+.f1{
+    font-family: "Ultra", serif;
+}
+

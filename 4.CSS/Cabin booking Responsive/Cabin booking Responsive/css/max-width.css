@@ -1,0 +1,693 @@
+@media (min-width:1400px){
+
+    /* xxl screen  */
+    .container{
+        
+        width: 1320px;
+    }    
+
+    
+    .w-xxl-1 {
+
+        width: 8.33%;
+    }
+
+    .w-xxl-2 {
+
+        width: 16.66%;
+    }
+
+    .w-xxl-3 {
+
+        width: 25%;
+    }
+
+    .w-xxl-4 {
+
+        width: 33.33%;
+    }
+
+    .w-xxl-5 {
+
+        width: 41.66%;
+    }
+
+    .w-xxl-6 {
+
+        width: 50%;
+    }
+
+    .w-xxl-7 {
+
+        width: 58.33%;
+    }
+
+    .w-xxl-8 {
+
+        width: 66.66;
+    }
+
+    .w-xxl-9 {
+
+        width: 75%;
+    }
+
+    .w-xxl-10 {
+
+        width: 83.33%;
+    }
+
+    .w-xxl-11 {
+
+        width: 91.66%;
+    }
+
+    .w-xxl-12 {
+
+        width: 100%;
+    }
+
+    .d-xxl-none{
+        display:none;
+    }
+
+    .d-xxl-none{
+        display:none;
+    }
+
+    .d-xxl-block{
+        display: block;
+    }
+
+    .d-xxl-flex{
+        display: flex;
+    }
+    
+
+}
+
+@media (max-width:1399px){
+
+    /* xl screen  */
+    .container{
+
+        width: 1140px;
+    }    
+    
+    .w-xl-1 {
+
+        width: 8.33%;
+    }
+
+    .w-xl-2 {
+
+        width: 16.66%;
+    }
+
+    .w-xl-3 {
+
+        width: 25%;
+    }
+
+    .w-xl-4 {
+
+        width: 33.33%;
+    }
+
+    .w-xl-5 {
+
+        width: 41.66%;
+    }
+
+    .w-xl-6 {
+
+        width: 50%;
+    }
+
+    .w-xl-7 {
+
+        width: 58.33%;
+    }
+
+    .w-xl-8 {
+
+        width: 66.66;
+    }
+
+    .w-xl-9 {
+
+        width: 75%;
+    }
+
+    .w-xl-10 {
+
+        width: 83.33%;
+    }
+
+    .w-xl-11 {
+
+        width: 91.66%;
+    }
+
+    .w-xl-12 {
+
+        width: 100%;
+    }
+
+    .d-xl-none{
+        display:none;
+    }
+
+    .d-xl-none{
+        display:none;
+    }
+
+    .d-xl-block{
+        display: block;
+    }
+
+    .d-xl-flex{
+        display: flex;
+    }
+
+    .bgimg-xl{
+        background-size:cover;
+        height: 500px;
+    }
+
+
+    .titlemain-xl{
+         font-size: 50px;
+    }
+    .titledes-xl{
+    
+        font-size: 18px;
+    }
+    .signbtn-xl{
+        padding: 10px 22px;
+        font-size: 18px;
+
+    }
+    
+    .bgimg2-xl{
+        background-size:cover;
+        height: 500px;
+    }
+    .des-xl{
+        padding: 250px 0 0 200px;
+    }
+
+    .title-xl{
+
+        padding: 5px 0 0 200px;
+        font-size: 70px;
+    }
+}
+
+@media (max-width:1199px){
+
+    /* l screen  */
+    .container{
+
+        width: 960px;
+    }    
+
+     .w-lg-1 {
+
+        width: 8.33%;
+    }
+
+    .w-lg-2 {
+
+        width: 16.66%;
+    }
+
+    .w-lg-3 {
+
+        width: 25%;
+    }
+
+    .w-lg-4 {
+
+        width: 33.33%;
+    }
+
+    .w-lg-5 {
+
+        width: 41.66%;
+    }
+
+    .w-lg-6 {
+
+        width: 50%;
+    }
+
+    .w-lg-7 {
+
+        width: 58.33%;
+    }
+
+    .w-lg-8 {
+
+        width: 66.66;
+    }
+
+    .w-lg-9 {
+
+        width: 75%;
+    }
+
+    .w-lg-10 {
+
+        width: 83.33%;
+    }
+
+    .w-lg-11 {
+
+        width: 91.66%;
+    }
+
+    .w-lg-12 {
+
+        width: 100%;
+    }
+
+    .d-lg-none{
+        display:none;
+    }
+
+    .d-lg-block{
+        display: block;
+    }
+
+    .d-lg-flex{
+        display: flex;
+    }
+
+    .bgimg-lg{
+        background-size:cover;
+        height: 500px;
+    }
+    .titlemain-lg{
+        font-size: 25px;
+    }
+
+    .signbtn-lg{
+        padding: 10px 20px;
+        margin-left:20px ;
+        font-size: 16px;
+    }
+     .bgimg2-lg{
+        background-size:cover;
+        height: 400px;
+    }
+
+    .des-lg{
+        padding: 200px 0 0 150px;
+    }
+    .title-lg{
+
+        padding: 5px 0 0 150px;
+        font-size: 80px;
+    }
+      .btn-lg{
+        right: 25%;
+    }
+    .titleft-lg{
+        font-size: 28px;
+    }
+
+     .ftlogoimg-lg{
+        width: 30%;
+    }
+
+   
+    .ftpayment-lg{
+        width: 25%;
+        padding: 5px;
+    }
+
+}
+
+
+@media (max-width:991px){
+
+    /* md screen  */
+    .container{
+
+        width: 720px;
+    }    
+
+
+    .w-md-1 {
+
+        width: 8.33%;
+    }
+
+    .w-md-2 {
+
+        width: 16.66%;
+    }
+
+    .w-md-3 {
+
+        width: 25%;
+    }
+
+    .w-md-4 {
+
+        width: 33.33%;
+    }
+
+    .w-md-5 {
+
+        width: 41.66%;
+    }
+
+    .w-md-6 {
+
+        width: 50%;
+    }
+
+    .w-md-7 {
+
+        width: 58.33%;
+    }
+
+    .w-md-8 {
+
+        width: 66.66;
+    }
+
+    .w-md-9 {
+
+        width: 75%;
+    }
+
+    .w-md-10 {
+
+        width: 83.33%;
+    }
+
+    .w-md-11 {
+
+        width: 91.66%;
+    }
+
+    .w-md-12 {
+
+        width: 100%;
+    }
+    .d-md-none{
+        display:none;
+    }
+
+    .bgimg-md{
+        background-size:cover;
+        height: 500px;
+    }
+    
+    
+    .des-md{
+        padding: 200px 0 0 50px;
+    }
+    .title-md{
+
+        padding: 5px 0 0 50px;
+        font-size: 70px;
+    }
+    
+     .boxtitle-md{
+        font-size:40px;
+    }
+
+    .btn-md{
+        right: 30%;
+    }
+
+    
+    .ftlogoimg-md{
+        width: 40%;
+    }
+   
+    .titleft-md{
+        font-size: 22px;
+    }
+
+    .ftpayment-md{
+        width: 30%;
+        padding: 5px;
+    }
+}
+
+@media (max-width:767px){
+
+    /* s screen  */
+    .container{
+
+        width: 540px;
+    }    
+
+    .w-sm-1 {
+
+        width: 8.33%;
+    }
+
+    .w-sm-2 {
+
+        width: 16.66%;
+    }
+
+    .w-sm-3 {
+
+        width: 25%;
+    }
+
+    .w-sm-4 {
+
+        width: 33.33%;
+    }
+
+    .w-sm-5 {
+
+        width: 41.66%;
+    }
+
+    .w-sm-6 {
+
+        width: 50%;
+    }
+
+    .w-sm-7 {
+
+        width: 58.33%;
+    }
+
+    .w-sm-8 {
+
+        width: 66.66;
+    }
+
+    .w-sm-9 {
+
+        width: 75%;
+    }
+
+    .w-sm-10 {
+
+        width: 83.33%;
+    }
+
+    .w-sm-11 {
+
+        width: 91.66%;
+    }
+
+    .w-sm-12 {
+
+        width: 100%;
+    }
+
+    .d-sm-none{
+        display:none;
+    }
+
+    .d-sm-flow{
+        display: flex;
+
+    }
+    .justify-sm-spacebtw{
+        justify-content: space-between;
+    }
+
+    .bgimg-sm{
+        background-size:cover;
+        height: 500px;
+    }
+    .des-sm{
+        padding: 200px 0 0 50px;
+    }
+
+    .title-sm{
+
+        padding: 5px 0 0 50px;
+        font-size: 70px;
+    }
+     .boxtitle-sm{
+        font-size:30px;
+    }
+
+     .btn-sm{
+        right: 35%;
+    }
+
+    .ftlogoimg-sm{
+        width: 50%;
+    }
+
+    .ftinfo-sm{
+        font-size: 14px;
+    }
+   
+    .fticon-sm{
+        margin: 5px;
+        width: 20px;
+    }
+
+     .titleft-sm{
+        font-size: 22px;
+    }
+
+    
+    .ftpayment-sm{
+        width: 30%;
+        padding: 5px;
+    }
+}
+
+
+@media (max-width:575px) {
+
+    /*  xs screen  */
+    .container{
+
+        width: 100%;
+    }    
+    
+    .w-xs-1 {
+
+        width: 8.33%;
+    }
+
+    .w-xs-2 {
+
+        width: 16.66%;
+    }
+
+    .w-xs-3 {
+
+        width: 25%;
+    }
+
+    .w-xs-4 {
+
+        width: 33.33%;
+    }
+
+    .w-xs-5{
+
+        width: 41.66%;
+    }
+
+    .w-xs-6 {
+
+        width: 50%;
+    }
+
+    .w-xs-7 {
+
+        width: 58.33%;
+    }
+
+    .w-xs-8 {
+
+        width: 66.66;
+    }
+
+    .w-xs-9 {
+
+        width: 75%;
+    }
+
+    .w-xs-10 {
+
+        width: 83.33%;
+    }
+
+    .w-xs-11 {
+
+        width: 91.66%;
+    }
+
+    .w-xs-12 {
+
+        width: 100%;
+    }
+
+    .d-xs-none{
+        display:none;
+    }
+
+    .d-xs-flow{
+        display: flex;
+
+    }
+    .justify-xs-spacebtw{
+        justify-content: space-between;
+    }
+
+    .bgimg-xs{
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+    }
+
+    .des-xs{
+        padding: 150px 0 0 50px;
+    }
+
+    .title-xs{
+        padding: 5px 0 0 50px;
+        font-size: 70px;
+    }
+
+    .boxtitle-xs{
+        font-size:30px;
+    }
+
+    .btn-xs{
+        right: 35%;
+    }
+
+    .ftlogoimg-xs{
+        width: 40%;
+    }
+
+    .ftinfo-xs{
+        font-size: 10px;
+    }
+   
+    .fticon-xs{
+        margin: 5px;
+        width: 20px;
+    }
+
+    .titleft-xs{
+        font-size: 20px;
+    }
+
+    .ftpayment-xs{
+        width: 30%;
+        padding: 5px;
+    }
+}

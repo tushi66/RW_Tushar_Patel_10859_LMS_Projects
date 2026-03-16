@@ -1,0 +1,110 @@
+*{
+    
+  font-family: "Slabo 27px", serif;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-nav li a{
+    color: white !important;
+    
+    
+}
+
+.btn{
+    color: white;
+}
+
+.logo{
+    width: 150px;
+}
+.nav-menu{
+
+    text-decoration: none;
+    list-style: none;
+
+
+}
+
+.list-menu{
+    padding: 5px 10px;
+}
+
+.list-menu:hover{
+    background-color: green;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+.head{
+    font-size: 60px;
+}
+
+.color{
+    color: green;
+}
+
+
+.btn{
+background-color: green;
+border: none;
+}
+
+.btn:hover{
+    background-color: rgb(2, 168, 2);
+}
+
+.line{
+    color: rgb(0, 176, 0);
+    border: 3px solid rgb(0, 183, 0);
+    
+    
+}
+
+.icon{
+    font-size: 40px;
+}
+
+.list-menu-ft{
+
+ 
+    padding: 5px 10px;
+
+}
+
+.list-menu-ft:hover{
+
+    color: green;
+    cursor: pointer;
+}
+
+.ftlogo{
+
+    width: 200px;
+}
+
+.iconft{
+
+    width: 70px;
+    padding: 10px;
+    margin: 15px;
+    transition: all 0.5s;
+}
+
+.iconft:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.img{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.img:hover{
+     transform: scale(1.1);
+}

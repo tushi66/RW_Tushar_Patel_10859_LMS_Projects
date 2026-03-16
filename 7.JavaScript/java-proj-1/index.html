@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+
+    <script>
+
+        // sum of two numbers
+
+        var a=15; b=25;
+        console.log("sum = ", a+b);
+
+
+        //difference between two numbers
+    
+        // var a=15; b=25;
+        if(a>b){
+            console.log("sum is ", a-b);
+            
+
+        }else{
+
+            console.log(" subtrac is ", b-a);
+        }
+        
+        
+        //multiply two numbers
+
+       // var a=15; b=25;
+        console.log("mul = ", a*b);
+
+
+
+        // division by zero using conditional statements.
+        // var a=15; b=25;
+        if(a == 0 || b == 0){
+            
+            console.log(" cann't divided by zero");
+            
+
+        }else{
+
+            console.log(" divide is ", a/b);
+        }
+
+        
+        //  square and cube of a number.
+        // var a=15; b=25;
+       
+        console.log(" sqare = ", a*a);
+
+        console.log(" cube = ", a*a*a);  
+
+        
+        
+        //area of a rectangle.
+        
+        var lenght=12; width=5;
+       
+        console.log(" area is ", lenght*width);
+
+       
+        //  the area of a circle
+
+        var radius= 5;
+
+        console.log(" circle is ", Math.PI * radius * radius);
+
+
+        //  Celsius to Fahrenheit.
+
+        var cel=28;
+
+        console.log(" Fehrenheit is ", (cel * 9/5)+32);
+
+
+        //  calculate Simple Interest 
+
+        var p=15000; rate=5; time=2;
+
+        console.log("Intrest rate is ", (p*rate*time)/100 );
+
+
+        
+        //  a number is even or odd
+        
+        var a=9;
+
+        if(a % 2 == 0 ){
+
+            console.log(" The num is even", a);
+            
+        }else{
+            console.log(" thu num is odd", a);
+            
+        }
+
+        // a number is positive, negative, or zero.
+
+        var a=-5;
+
+        if(a == 0){
+
+            console.log(" The num is zero", a);
+            
+        }else if(a>0){
+            console.log(" thu num is Positive", a);
+            
+        }else{
+            console.log(" thu num is Negative", a);
+            
+        }
+
+        // find the largest of two numbers using if-else.
+
+         var a=5; b=18;
+
+
+        if(a>b){
+
+            console.log(" The largest num is ", a);
+            
+        }else{
+            console.log(" The largest num is ", b);
+            
+        }
+
+
+
+        //  find the largest of three numbers using conditional statements.
+
+
+        var a=5; b=38; c=20;
+
+        if(a>b){
+
+            if(a>c){
+                console.log("The num is Largest", a);
+            }else{
+                console.log("The num is Largest", c); 
+            }
+
+
+        }else if(b>c){
+            console.log(" thu num is Largest", b);
+            
+        }else{
+            console.log("The num is Largest", c);
+        }
+
+        // a person is eligible for voting (age ≥ 18).
+
+        var age=25;
+
+        if(age >= 18){
+            
+            console.log("You are eligible to vote", age);
+
+        } else{
+
+            console.log("You are not eligible to vote", age);
+        }
+
+
+        // calculate grade based on marks:
+
+
+        var mark=65;
+
+        if(mark >= 90){
+
+            console.log("Grade is A");
+            
+
+        }else if( mark >= 75 && mark <= 89){
+
+            console.log("Grade is B");
+
+        }else if( mark >= 50 && mark <= 74){
+
+            console.log("Grade is c");
+
+        }else{
+
+            console.log(" You are Fail.....");
+            
+        }
+
+        // a given year is a leap year.
+
+        var year = 2026;
+
+        if(year % 4 == 0){
+
+            console.log("this is a leap year");
+            
+
+
+        }else{
+
+            console.log("this is not a leap year");
+            
+        }
+
+
+        //  a number is divisible by both 5 and 11.
+
+        var a=110;
+
+        if( a % 5 == 0 && a % 11 == 0){
+
+            console.log(" this number is devided by 5 and 11");
+            
+
+        }else{
+            console.log("this number is not devided by 5 and 11 ");
+            
+        }
+
+        //  switch statement to perform addition, subtraction, multiplication, and division.
+
+        
+        var n1=12; n2=23;
+        var operator = '*';
+
+        switch(operator){
+
+            case '+':
+                console.log("Sum is : ", n1+n2);
+                break;
+                
+            case '-':
+                console.log("Sub is : ", n1-n2);
+                break;
+
+            case '*':
+                console.log("Multiply by is : ", n1*n2);
+                break;
+
+            case '/':
+                if(n2 == 0){
+                        console.log("Diveded by zero not possible");
+                        
+                }else{
+                console.log("Diveded is : ", n1/n2);
+                }
+                break;
+
+            default:
+                console.log("Invalid error......");
+                
+
+        }
+
+
+        //  BMI and display the health category (Underweight, Normal, Overweight, Obese).
+
+
+        var weigth=250; heigth=3;
+        var BMI;
+        
+        console.log(" the BMI is:- ", BMI = weigth / (heigth*heigth));
+        
+        if(BMI<18.5){
+            console.log("Underweight");
+            
+        }else if( BMI >= 18.5 && BMI <25){
+
+                console.log("Normal weight");
+        }else if( BMI >= 25 && BMI <30){
+
+                console.log("Over weight");
+        }else{
+            console.log("obese....");
+            
+        }
+
+        //  electricity bill based on units consumed:
+
+        var units=250; 
+        var bill;
+
+        if(units<=100){
+            
+            console.log(" Firts 100 units bill is ", bill = units*5);
+             
+
+        }else if(units<=200){
+
+            console.log(" 200 units bill is ",  bill = (100 * 5) + (units - 100) * 7);
+
+           
+
+        }else{
+
+            console.log(" above 200 units bill is ",bill = (100 * 5) + (100 * 7) + (units - 200) * 10 );
+       
+                
+            
+        }
+
+        
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

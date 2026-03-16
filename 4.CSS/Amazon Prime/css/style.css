@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+
+    font-family: 'Amazon Ember';
+
+}
+
+.container{
+
+    width: 1320px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.row{
+
+        width: 100%;
+        padding: 0 -16px;
+
+}
+
+
+.box{
+    width: 8.33%;
+
+}
+
+.box2{
+
+    width: 16.66%;
+
+}
+
+.box3{
+
+    width: 25%;
+ 
+}
+.box4{
+
+    width: 33.33%;
+ 
+}
+.box5{
+
+    width: 41.66%;
+  
+}
+.box6{
+
+    width: 50%;
+  
+}
+.box7{
+
+    width: 58.33%;
+   
+}
+.box8{
+
+    width: 66.66%;
+   
+}
+.box8{
+
+    width: 75%;
+}
+.box10{
+
+    width: 83.33%;
+   
+}
+.box11{
+
+    width: 91.66%;
+  
+}
+.box12{
+
+    width: 100%;
+    
+}
+
+header{
+    background-color: black;
+}
+
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-item-center{
+    align-items: center;
+}
+
+.justify-spacebtw{
+    justify-content: space-between;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.mt50{
+    margin-top: 50px;
+}
+
+.mb10{
+    margin-bottom: 10px;
+}
+.mb100{
+    margin-bottom: 100px;
+}
+
+
+/* header css  */
+
+.logo{  
+
+    width: 100%;
+    padding: 20px;
+}
+
+.divider{
+
+    width: 1px;
+    background-color: gray;
+    margin: 0 20px;
+
+
+}
+
+a{
+
+    text-decoration: none;
+    color: inherit;
+   
+
+}
+
+ul{
+    list-style: none;
+}
+
+.hdmenu{
+    color: white;
+}
+
+.listmenu{
+
+
+        font-size: 16px;
+        padding: 15px;
+         color: white;
+}
+
+.listmenu:hover{
+
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.iconsub{
+
+    color: white;
+    font-size: 20px;
+    
+}
+
+.listicon{
+
+    padding: 10px;
+    color: white;
+
+}
+
+.userimg{
+    width: 30px;
+    border: none;
+}
+
+.userimg:hover{
+   
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    
+
+}
+
+.serchicon{
+
+    color: red;
+}
+
+.joinbtn{
+
+    padding: 10px 15px;
+    background-color: #1A98ffcc;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.joinbtn:hover{
+
+    background-color: rgba(26, 152, 255, 1);
+    box-shadow: 0 -4px 16px 0 rgba(var(--action-background-color,255,255,255),.2)
+}
+
+
+
+/* main css */
+
+.bgimg{
+    background-image: url(../images/bgimg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+.bgimg2{
+    background-image: url(../images/bg2.jpg);
+    height: 500px;
+    background-size:cover;
+    width: 100%;
+}
+
+.bgimg3{
+    width: 100%;
+}
+
+
+
+body{
+    color: white;
+    background-color: black;
+}
+
+.titlemain{
+
+    font-size: 50px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.titledes{
+
+    font-size: 18px;
+    padding: 20px 0;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.Signbtn{
+
+    padding: 10px 22px;   
+    font-size: 18px;
+    border: none;
+    border-radius: 5px; 
+    color: #00050D;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-left: 20px;
+    
+    
+}
+.Signbtn:hover{
+    background-color: #f1f1f1;;
+    color: #4d4d4d;
+    transform: scale(1.05);
+}
+.titlepage{
+
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.imgpic{
+
+    width: 100%;
+    border-radius: 20px;
+    padding: 3px;
+
+    
+}
+
+
+
+/* footer css */
+
+footer{
+    padding: 30px;
+    background-color: #222222;
+    text-align: center;
+}
+.footlogo{
+
+    width: 100px;
+
+}
+.ftinfo{
+
+    margin: 10px;
+    color: #8197A4;
+    font-size: 14px;
+}
+
+
+.ftdes{
+    
+    font-size: 15px;
+    color: #79B8F3;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Movie Page CSS  */
+
+.movieimg{
+    background-image: url(../images/m1.webp);
+    background-size: cover;
+    width: 100%;
+
+    padding: 100px;
+}
+
+.primelg{
+    margin-top: 150px;
+    width: 80px;
+    
+}
+
+.movielogo{
+    width: 150px;
+    margin: 10px;
+}
+
+.movietag{
+    color: #37F1A3;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.moviedes{
+
+    font-size: 16px;
+    margin: 10px;
+}
+
+.primebtn{
+    margin: 10px;
+    padding: 12px 22px;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 100%, 0.5);
+    cursor: pointer;
+    
+}
+.btnicon{
+    padding: 30px;
+    border-radius: 50%;
+    
+}
+
+.titleinfo{
+
+    font-size: 25px;
+    margin: 10px 20px;
+}
+.seemore{
+    font-size: 20px;
+}
+
+.imgmovie{
+
+    width: 100%;
+    padding: 0 5px;
+    border-radius: 10px;
+}
+.moviebox{
+
+    margin: 20px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+    position: relative;
+}
+
+.movieinfo{
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    padding: 10px;
+    opacity: 1;
+    visibility: hidden;
+    transition: all 0.1s;
+    position: absolute;
+    z-index: 10000000;
+}
+
+
+.moviebox:hover .movieinfo{
+
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.1);
+
+}
