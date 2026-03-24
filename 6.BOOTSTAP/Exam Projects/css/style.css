@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.icon{
+    color: green;
+    margin: 5px 20px;
+    border: 1px solid green;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.icon:hover{
+    background-color: green;
+    color: white;
+}
+
+.btn-food{
+    color: black;
+    border: 1px solid #ffc107;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.btn-food:hover{
+      font-weight: bold;
+}
+
+.icon_clr{
+    color: #ffc107;
+}
+
+.img-card{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.ft-icon{
+    font-size: 20px;
+    margin: 0 2px;
+    border: 1px solid #ffc107;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+}
+.ft-icon:hover{
+    background-color: #ffc107;
+    color: black;
+}
+
+.ft-list{
+    border: none;
+    padding: 5px 0;
+    
+}
+.ft-list:hover{
+    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ft-btn{
+        border-radius: 50%;
+        padding: 5px;
+}
+.input-ft{
+    max-width: 300px;
+    border: none;
+    border-bottom: 1px solid #ffc107;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.icon, .ft-icon {
+    transition: 0.3s ease-in-out;
+}
