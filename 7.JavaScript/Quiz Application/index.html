@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+
+    <div class="quiz-wrapper">
+
+        <div class="start-container" id="startContainer">
+            <h1>JavaScript Quiz</h1>
+            <button class="btn-start" id="startBtn">Start Quiz</button>
+        </div>
+
+        <!-- Quiz Container -->
+        <div class="quiz-container" id="quizContainer">
+
+            <!-- Header -->
+            <div class="quiz-header">
+                <div class="quiz-title">JavaScript Quiz</div>
+                <div class="timer" id="timer">05:00</div>
+
+                <div class="progress-bar-container">
+                    <div class="quiz-progress" id="progressBar"></div>
+                </div>
+            </div>
+
+
+            <!-- Body -->
+            <div class="quiz-body">
+
+                <!-- Question -->
+                <h2 id="question">Question will appear here...</h2>
+
+                <div id="quizBody"></div>
+
+            </div>
+
+            <!-- Footer -->
+            <div class="quiz-footer">
+                <span id="questionCounter">1 / 10</span>
+                <button class="btn-next" id="nextBtn">Next</button>
+            </div>
+
+        </div>
+
+
+        <!-- Result -->
+        <div class="results-container" id="resultsContainer">
+            <h2 id="resultHeading">Quiz Complete! 🎉</h2>
+
+            <div class="results-score" id="finalScore">0/5</div>
+            <div class="results-message" id="resultsMessage">Great effort!</div>
+
+            <div class="results-details">
+                <div class="result-row">
+                    <span class="result-label">Correct Answers:</span>
+                    <span class="result-value" id="correctCount">0</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="result-label">Incorrect Answers:</span>
+                    <span class="result-value" id="incorrectCount">0</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="result-label">Total Questions:</span>
+                    <span class="result-value" id="totalQuestions">0</span>
+                </div>
+
+                <div class="result-row">
+                    <span class="result-label">Time Taken:</span>
+                    <span class="result-value" id="timeTaken">0s</span>
+                </div>
+            </div>
+
+            <button class="btn-restart" id="restartBtn">Restart Quiz</button>
+        </div>
+
+    </div>
+
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
