@@ -1,0 +1,27 @@
+.body{
+    background-color: #e9ecef;
+    font-family: Arial, sans-serif;
+}
+
+.mainform{
+    max-width: 800px;
+    margin: 50px auto; 
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: 2px;
+}
