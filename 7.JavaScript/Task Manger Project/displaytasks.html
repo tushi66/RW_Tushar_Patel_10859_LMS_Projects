@@ -68,7 +68,58 @@
                   </table>
 
             </div>
+
             
+      <!-- Edit Task Modal -->
+      <div class="modal fade" id="editModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+
+            <div class="modal-header">
+              <h5 class="modal-title">Edit Task</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+
+              <input type="hidden" id="editIndex">
+
+              <div class="mb-2">
+                <label>Task Name</label>
+                <input type="text" id="editName" class="form-control">
+              </div>
+
+              <div class="mb-2">
+                <label>Task Description</label>
+                <input type="text" id="editDescription" class="form-control">
+              </div>
+
+              <div class="mb-2">
+                <label>Due Date</label>
+                <input type="date" id="editDueDate" class="form-control">
+              </div>
+
+              <div class="mb-2">
+                <label>Priority</label>
+                <select id="editPriority" class="form-control">
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High">High</option>
+                </select>
+              </div>
+
+            </div>
+
+            <div class="modal-footer">
+              <button class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+              <button class="btn btn-primary" onclick="updateTask()">Save</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
 
 
 
