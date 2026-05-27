@@ -103,6 +103,54 @@ function displayTasks() {
 }
 
 
+function editTask(index) {
+
+    var tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+    var task = tasks[index];
+
+    document.getElementById('editIndex').value = index;
+    document.getElementById('editName').value = task.name;
+    document.getElementById('editDescription').value = task.description;
+    document.getElementById('editDueDate').value = task.dueDate;
+    document.getElementById('editPriority').value = task.priority;
+
+    var modal = new bootstrap.Modal(document.getElementById('editModal'));
+    modal.show();
+    
+}
+
+function updateTask() {
+
+    var index = document.getElementById('editIndex').value;
+
+    var tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+    tasks[index].name = document.getElementById('editName').value;
+    tasks[index].description = document.getElementById('editDescription').value;
+    tasks[index].dueDate = document.getElementById('editDueDate').value;
+    tasks[index].priority = document.getElementById('editPriority').value;
+
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+
+    displayTasks();
+
+    var modalEl = document.getElementById('editModal');
+    var modal = bootstrap.Modal.getInstance(modalEl);
+    modal.hide();
+}
+
+function deleteTask(index) {
+
+    var tasks = JSON.parse(localStorage.getItem('tasks')) || [];
+
+    tasks.splice(index, 1);
+
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+
+    displayTasks();
+
+}
+
 displayTasks();
 
 
