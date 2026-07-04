@@ -1,8 +1,8 @@
-
 const apiKey = "057959411634502face48cc1f7ff3672";
 
 const searchBtn = document.getElementById("searchBtn");
 const weatherResult = document.getElementById("weatherResult");
+
 
 async function getWeather(city) {
 

@@ -27,7 +27,6 @@ function slideshow(){
 }
 
 
-
 function nextSlide(){
 
     current++;
@@ -38,8 +37,6 @@ function nextSlide(){
 
     slideshow();
 }
-
-
 
 document.getElementById("next").addEventListener("click", () => {
 
@@ -66,9 +63,6 @@ document.getElementById("prev").addEventListener("click", () => {
 });
 
 
-
-setInterval(nextSlide, 2000);
-
-
+setInterval(nextSlide, 5000);
 
 slideshow();

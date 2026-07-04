@@ -79,6 +79,7 @@ const restartBtn = document.getElementById("restartBtn");
 /* Init */
 
 const initQuizApp = () => {
+
     timeRemaining = 300;
     currentQuestion = 0;
     score = 0;
@@ -240,11 +241,3 @@ restartBtn.addEventListener("click", () => {
     clearInterval(timeInterval);
 
 });
-
-/* Start */
-
-// document.addEventListener("DOMContentLoaded", () => {
-
-//     initQuizApp();
-
-// })
